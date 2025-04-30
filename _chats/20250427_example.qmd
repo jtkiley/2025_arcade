@@ -1,0 +1,104 @@
+---
+title: "Local LLMs: Example"
+author: "Jason T. Kiley"
+date: "April 27, 2025"
+format:
+    html:
+        code-overflow: wrap
+---
+
+### You
+
+```markdown
+My team is working on a research project where we need to look at a document and score how prominent the CEO is in identified portions of the document. Below, there are instructions, information like the CEO's name, the document, and questions. Please answer the questions with the provided scale.
+
+
+# Instructions
+
+We are looking into how prominent the Chief Executive Officer ("CEO") of the focal company is featured in the accompanying text.
+
+Prominence refers to the extent to which the CEO is featured in the document’s title and/or text. A CEO is prominently featured in a press release when they are mentioned by name, quoted, or otherwise given agency as an actor or subject. CEOs who are not featured prominently in the text may not be mentioned at all.
+
+# Information
+
+Focal Firm: HOLOGIC INC
+
+The focal firm in the press release below is HOLOGIC INC.
+
+Focal CEO: John W. Cumming
+
+The focal CEO of HOLOGIC INC is John W. Cumming.
+
+# Document
+
+Title: FDA Clears Hologic's Single Energy Femur Exam to Visualize Features Associated with Developing Atypical Femur Fractures on a DXA Platform; Single Energy Femur Exam option allows clinicians to visualize features associated with developing atypical femur fractures, a debilitating fracture associated with bisphosphonate therapy
+
+Body: Hologic, Inc. (Hologic or the Company) (NASDAQ: HOLX), a leading developer, manufacturer and supplier of premium diagnostics products, medical imaging systems and surgical products, with an emphasis on serving the healthcare needs of women, today announced it received U.S. Food and Drug Administration (FDA) clearance for the Company's Single Energy (SE) Femur Exam on a dual energy x-ray absorptiometry (DXA) platform for the assessment of features associated with atypical femur fractures (AFF). This first-of-its-kind capability assists clinicians in their assessment of potential AFF in patients who have been on anti-resorptive treatments such as bisphosphonates.
+The new assessment option will be offered exclusively on Hologic's Horizon DXA platform, a soon to be commercialized product line of bone densitometers. This quick 15-second SE Femur Exam is designed to produce a high resolution image of the entire femur with a very low effective radiation dose. An AFF assessment can be conveniently performed at the time of a hip bone density scan with little or no patient repositioning and a minimal increase in exam time.
+"We developed our Single Energy Femur Exam in an effort to provide clinicians with the critical information needed to effectively manage patient care and improve fracture-related outcomes," said John Jenkins, Hologic Vice President of Marketing for Specialty Imaging Products. "An atypical femur fracture is an extremely debilitating fracture, in many instances much worse than a normal osteoporosis-related hip fracture. While these fractures are uncommon, the morbidity associated with them is significant. Recently published studies indicate that patients who suffer an AFF face extensive in-patient hospitalization, are at high risk for complications, and often report poorer health and function after the fracture.1 By including a convenient way for the physician to assess possible developing AFFs, early medical intervention may avoid the significant morbidity of a complete atypical femur fracture."
+"The 2010 American Society for Bone and Mineral Research (ASBMR) Task Force on atypical femoral fracture emphasized that physicians should ask patients on bisphosphonates about thigh or groin pain, as this often precedes atypical femur fractures," comments Kevin Wilson, PhD, Hologic Scientific Director of Skeletal Health.2 "Further, the FDA has instructed physicians to evaluate any patients on bisphosphonates with thigh or groin pain to rule out a femoral fracture.3 Our SE Femur Exam is cleared by the FDA to visualize features associated with AFFs, and this can be done quickly and conveniently at the time of osteoporosis assessment."
+About Atypical Femur Fractures:
+Patients suffering from osteoporosis are often treated with bisphosphonates to prevent or slow the loss of bone mass. Since their approval in 1995, bisphosphonates have become one of the most popular treatment options for the prevention of common osteoporosis-related fractures, primarily in post-menopausal women. Recently, studies have linked long-term bisphosphonate therapy with increased risk of atypical femur fractures.
+Patients with atypical femur fractures frequently report having groin or thigh pain prior to being diagnosed with the fracture. These fractures are often bilateral and appear to evolve over time with initial development of a cortical bump that likely represents early periosteal thickening of the femoral shaft which is the result of the formation of new bone in response to injury or other stimuli. In addition, a transverse cortical lucency, or thin black line, may be present in the region of the periosteal thickening and indicates an incomplete fracture. This may or may not progress to a complete fracture. Complete fractures extend through the entire femoral shaft often with the formation of a medial spike. Incomplete fractures occur in the lateral cortex only. Complete atypical femur fractures occur without trauma or with only minimal trauma and studies have shown that healing is often delayed.2 Treatment options for incomplete atypical femur fractures are limited and include stopping anti-resorptive and bisphosphonate therapies, restricting activities, and, in some instances, prophylactic surgery to prevent a complete fracture.
+About Hologic, Inc.
+Hologic, Inc. is a leading developer, manufacturer and supplier of premium diagnostics products, medical imaging systems, and surgical products, with an emphasis on serving the healthcare needs of women. The Company operates four core business units focused on diagnostics, breast health, GYN surgical and skeletal health. With a comprehensive suite of technologies and a robust research and development program, Hologic is committed to improving lives. The Company is headquartered in Massachusetts.
+Hologic, Horizon and associated logos are trademarks and/or registered trademarks of Hologic, Inc., and/or its subsidiaries in the United States and/or other countries.
+Forward-Looking Statement Disclaimer.
+This News Release may contain forward-looking information that involves risks and uncertainties, including statements about the use of Hologic's Single Energy Femur Exam and Horizon DXA bone densitometers. There can be no assurance the systems will achieve the benefits described herein and that such benefits will be replicated in any particular manner with respect to an individual patient as the actual effect of the use of the systems can only be determined on a case-by-case basis depending on the particular circumstances and patient in question. Hologic expressly disclaims any obligation or undertaking to release publicly any updates or revisions to the data or statements presented herein to reflect any change in the Company's expectations or any change in events, conditions or circumstances on which any such data or statements are based.
+1 Shkolnikova, J. et al. Burden of bisphosphonate-associated femoral fractures. ANZ J Surg 83. (2013) 175-181
+2 Shane E., Burr D., Ebeling P.R., et al. Atypical subtrochanteric and diaphyseal femoral fractures: Report of a task force of the American Society for Bone and Mineral Research. J Bone Miner Res. 2010 Nov;25(11):2267-94. DOI: 10.1002/jbmr.253
+3 FDA Drug Safety Communication: Safety update for osteoporosis drugs, bisphosphonates, and atypical fractures, 10-13-2010.
+Contacts
+
+
+
+Marianne McMorrow
+           Pat Hall
+Global PR and Advertising Publicist
+           Director of Corporate Communications
+Hologic, Inc.
+           Hologic, Inc.
+ Marianne.McMorrow@Hologic.com
+            Pat.Hall@Hologic.com
+Tel: +1 781 999 7723
+           Tel: +1 781 999 7463
+SOURCE Hologic, Inc.
+
+# Questions
+
+Please answer the following questions using integers in a scale from 1 to 5, where 1 is "Not prominent at all" and 5 is "Very prominent."
+
+1. Is the CEO featured prominently in the title of the press release?
+2. Is the CEO featured prominently in the body of the press release (not counting title)?
+
+```
+
+---
+
+
+### Assistant
+
+Here are my answers to your questions, based on the provided document and scale:
+
+1. **Is the CEO featured prominently in the title of the press release?**
+   **1** - Not prominent at all. John W. Cumming is not mentioned anywhere in the title.
+
+2. **Is the CEO featured prominently in the body of the press release (not counting title)?**
+   **1** - Not prominent at all. While the document mentions people within Hologic, John W. Cumming is *not* one of them. The named individuals hold VP and Director positions, not the CEO position.
+
+---
+
+
+### You
+
+Can you format the responses as a csv, where the id column is 0, the q1 column is the integer response to the first question, and the q2 column is the integer response to the second question?
+
+---
+
+### Assistant
+
+```csv
+id,q1,q2
+0,1,1
+```
+---
