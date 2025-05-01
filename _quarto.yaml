@@ -1,0 +1,7 @@
+project:
+  type: website
+
+website:
+  title: "Endless Tokens in Your Own Arcade"
+  site-url: https://jtkiley.github.io/2025_arcade
+  description: "Local LLMs for Research"
