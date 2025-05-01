@@ -15,6 +15,18 @@ title-slide-attributes:
 
 ---
 
+## QR Code
+
+::: {.columns}
+::: {.column width="50%"}
+[github.com/jtkiley](https://github.com/jtkiley/2025_arcade)
+:::
+::: {.column width="50%"}
+{{< qrcode https://github.com/jtkiley/2025_arcade width=300 height=300 >}}
+:::
+:::
+
+
 # Overview
 
 ## Abstract {visibility="hidden"}
